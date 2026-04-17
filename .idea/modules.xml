@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/WebCuaHangMeVaBe-main.iml" filepath="$PROJECT_DIR$/.idea/WebCuaHangMeVaBe-main.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/untitled.iml" filepath="$PROJECT_DIR$/.idea/untitled.iml" />
+>>>>>>> 58c324780ffe993371e7f3d34d7d2b43ef74957b
     </modules>
   </component>
 </project>
