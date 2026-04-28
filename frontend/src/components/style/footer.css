@@ -8,7 +8,7 @@
 .footer-top {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-feature {
@@ -18,8 +18,7 @@
 }
 
 .footer-feature img {
-    width: 30px;
-    filter: brightness(0) invert(1);
+    width: 90px;
 }
 
 /* MAIN CONTENT */

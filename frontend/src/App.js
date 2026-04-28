@@ -1,4 +1,5 @@
 import Login from "./pages/pageLogin/login";
+import Home from "./pages/pageHome/home";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from "./layout/mainLayout";
@@ -13,8 +14,8 @@ function App() {
                 {/*<Route path="/" element={<Welcome />} /> */}
                 {/* <Route path="/product/:id" element={<BackLayout><ProductDetail /></BackLayout>} />*/}
                 {/* <Route path="/account" element={<BackLayout> <Account /> </BackLayout>}/>*/}
-                {/* <Route path="/home" element={<MainLayout> <Home /></MainLayout>}/>*/}
-                <Route path="/" element={<MainLayout><Login /></MainLayout>} />
+                <Route path="/" element={<MainLayout> <Home /></MainLayout>}/>
+                <Route path="/login" element={<MainLayout><Login /></MainLayout>} />
             </Routes>
         </BrowserRouter>
     );

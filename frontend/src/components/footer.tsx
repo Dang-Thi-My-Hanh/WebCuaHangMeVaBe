@@ -1,11 +1,13 @@
 import React from "react";
 import './style/footer.css';
 import youtube from "../assets/icons/youtobe.jpg";
+import intergram from "../assets/icons/intergram.jpg";
+import tiktok from "../assets/icons/tiktok.jpg";
 import zalo from "../assets/icons/zalo.jpg";
 import facebook from "../assets/icons/facebook.jpg";
-import truck from '../assets/header/truck.svg';
-import shield from '../assets/header/shield.svg';
-import returnIcon from '../assets/header/refresh.svg';
+import shield from "../assets/icons/icon2.png";
+import returnIcon from "../assets/icons/icon3.png";
+import truck from "../assets/icons/icon4.png";
 
 const Footer: React.FC = () => {
     return (
@@ -35,6 +37,8 @@ const Footer: React.FC = () => {
 
                     <div className="social-icons">
                         <img src={facebook} alt="facebook" />
+                        <img src={intergram} alt="intergram" />
+                        <img src={tiktok} alt="tiktok" />
                         <img src={zalo} alt="zalo" />
                         <img src={youtube} alt="youtube" />
                     </div>

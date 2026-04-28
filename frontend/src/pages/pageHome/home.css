@@ -1,0 +1,50 @@
+.home {
+    padding: 20px;
+}
+.breadcrumb {
+    font-size: 14px;
+    color: rgba(255, 109, 153, 0.73);
+    margin: 55px 15px 10px 0;
+    font-weight: 500;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: rgba(255, 109, 153, 0.73);
+    transition: 0.2s;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+    color: #16a34a;
+}
+
+/* layout chính */
+.home-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* phần sản phẩm */
+.product-section {
+    flex: 1;
+}
+
+/* tabs */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tabs button {
+    background: #4ade80;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
