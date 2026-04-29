@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="59dcd129-e92b-4fab-8894-714e7b14aca6" name="Changes" comment="Update database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +78,11 @@
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\pages" />
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\types" />
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\product" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\style" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\assets" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,7 +120,8 @@
       <workItem from="1777085083814" duration="4561000" />
       <workItem from="1777214821496" duration="7036000" />
       <workItem from="1777385418170" duration="6780000" />
-      <workItem from="1777392551008" duration="5223000" />
+      <workItem from="1777392551008" duration="5382000" />
+      <workItem from="1777475734359" duration="8403000" />
     </task>
     <task id="LOCAL-00001" summary="Update database">
       <option name="closed" value="true" />
