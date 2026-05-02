@@ -1,32 +1,68 @@
 import React, { useState } from 'react';
 import { useDispatch } from "react-redux";
-import { setKeyword, clearKeyword } from "../redux/search";
+import { setKeyword } from "../redux/search";
 import { useNavigate } from 'react-router-dom';
 
-import './style/header2.css';
+import './style/header.css';
 import logo from '../assets/logo/Logo.png';
-import search from '../assets/header/search.svg';
-import cartIcon from '../assets/header/cart.svg';
+import user from '../assets/header/user.svg';
+import bell from '../assets/header/badge.svg';
+import cart from '../assets/header/cart.svg'; // thêm icon chuông
+import searchIcon from '../assets/header/search.svg'; // icon search
 
 const Header: React.FC = () => {
-    const [showSearch, setShowSearch] = useState(false);
+    const [keyword, setKey] = useState("");
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
+    const handleSearch = () => {
+        dispatch(setKeyword(keyword));
+        navigate("/search");
+    };
+
     return (
         <div className="header">
+
+            {/* LEFT */}
             <div className="header-left">
-                <img src={logo} alt="logo" className="header-logo" onClick={() => navigate('/home')}/>
+                <img
+                    src={logo}
+                    alt="logo"
+                    className="header-logo"
+                    onClick={() => navigate('/home')}
+                />
             </div>
+
+            {/* CENTER - SEARCH */}
+            <div className="header-center">
+                <div className="search-box">
+                    <img src={searchIcon} alt="search" />
+                    <input
+                        type="text"
+                        placeholder="Bạn cần tìm gì?"
+                        value={keyword}
+                        onChange={(e) => setKey(e.target.value)}
+                        onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+                    />
+                </div>
+            </div>
+
+            {/* RIGHT */}
             <div className="header-right">
-                {showSearch && (<input type="text" className="search-input" placeholder="Search products..."
-                                       autoFocus onChange={(e) =>
-                        dispatch(setKeyword(e.target.value.trim()))}/>
-                )}
-                <img src={search} alt="search" className="header-icons" onClick={() => {
-                    setShowSearch(!showSearch);if (showSearch) dispatch(clearKeyword());}}/>
-                <img src={cartIcon} alt="cart" className="header-icons" onClick={() => navigate('/cart')}/>
+                <div className="user-group" onClick={() => navigate('/login')}>
+                    <img src={user} alt="user" />
+                    <span>Đăng nhập</span>
+                </div>
+
+                <div className="cart-group" onClick={() => navigate('/cart')}>
+                    <img src={cart} alt="cart" />
+                    <span>Giỏ hàng</span>
+                </div>
+                <div className="bell-group">
+                    <img src={bell} alt="bell" />
+                </div>
             </div>
+
         </div>
     );
 };

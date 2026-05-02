@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../components/header';
+import Header from '../components/header2';
 import Footer from '../components/footer';
 
-const MainLayout = ({ children }: { children: React.ReactNode }) => {
+const LoginLayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div className="layout">
             <Header />
@@ -12,4 +12,4 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     );
 };
 
-export default MainLayout;
+export default LoginLayout;
