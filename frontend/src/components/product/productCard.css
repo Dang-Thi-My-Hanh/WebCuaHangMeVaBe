@@ -1,0 +1,40 @@
+.product-card {
+    width: 200px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: relative;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.product-name {
+    font-size: 14px;
+    color: #333;
+}
+
+.product-price {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.cart-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
