@@ -1,7 +1,7 @@
 import React from "react";
 import { Product } from "../../types/ProductType";
 import ProductCard from "./ProductCard";
-
+import "./productGrid.css";
 interface Props {
     products: Product[];
 }

@@ -22,8 +22,6 @@ const Header: React.FC = () => {
 
     return (
         <div className="header">
-
-            {/* LEFT */}
             <div className="header-left">
                 <img
                     src={logo}
@@ -32,8 +30,6 @@ const Header: React.FC = () => {
                     onClick={() => navigate('/home')}
                 />
             </div>
-
-            {/* CENTER - SEARCH */}
             <div className="header-center">
                 <div className="search-box">
                     <img src={searchIcon} alt="search" />
@@ -49,14 +45,13 @@ const Header: React.FC = () => {
 
             {/* RIGHT */}
             <div className="header-right">
-                <div className="user-group" onClick={() => navigate('/login')}>
-                    <img src={user} alt="user" />
-                    <span>Đăng nhập</span>
-                </div>
-
                 <div className="cart-group" onClick={() => navigate('/cart')}>
                     <img src={cart} alt="cart" />
                     <span>Giỏ hàng</span>
+                </div>
+                <div className="user-group" onClick={() => navigate('/login')}>
+                    <img src={user} alt="user" />
+                    <span>Đăng nhập</span>
                 </div>
                 <div className="bell-group">
                     <img src={bell} alt="bell" />

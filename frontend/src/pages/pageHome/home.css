@@ -58,7 +58,7 @@
     background: linear-gradient(135deg, #f472b6, #4ade80);
     color: white;
 }
-.product-list {
+.home-product-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;

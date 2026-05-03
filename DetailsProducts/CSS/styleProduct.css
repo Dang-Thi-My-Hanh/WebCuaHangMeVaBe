@@ -1,7 +1,7 @@
 :root {
     --mint-bg: #e8f7f2;
-    --header-green: #52d681;
-    --accent-pink: #f7a1c4;
+    --header-green: #f3d047;
+    --accent-pink: rgba(253, 90, 159, 0.8);
     --text-main: #333;
     --white: #ffffff;
     --gray-light: #f5f5f5;

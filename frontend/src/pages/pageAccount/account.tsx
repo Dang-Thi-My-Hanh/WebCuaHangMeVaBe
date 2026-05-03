@@ -19,7 +19,7 @@ const AccountPage: React.FC = () => {
                         <div className="avatar"></div>
                         <p>Tên tài khoản</p>
                         <div className="address-link">
-                            <img src={map} alt="banner" className="promo-banner" />
+                            <img src={map} alt="map" className="promo-map" />
                             <button onClick={() => window.location.href = "/address"}>
                                 Địa chỉ nhận hàng
                             </button>

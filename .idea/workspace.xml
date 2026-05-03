@@ -6,6 +6,72 @@
   <component name="ChangeListManager">
     <list default="true" id="59dcd129-e92b-4fab-8894-714e7b14aca6" name="Changes" comment="Update database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetailsProducts/CSS/styleProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/DetailsProducts/CSS/styleProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/history.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/history.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.cjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.cjs.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/router.umd.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/utils.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/dist/utils.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/history.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/history.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@remix-run/router/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@remix-run/router/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/dom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/dom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/react-router-dom.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/server.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/server.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/server.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/server.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/server.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/server.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router-dom/server.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router-dom/server.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/lib/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/lib/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/lib/context.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/lib/context.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/lib/hooks.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/lib/hooks.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/react-router.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.production.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/dist/umd/react-router.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-router/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +81,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -45,41 +116,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Mon Nam 4/ChuyenDeWeb/Cửa hàng mẹ và bé/Web",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "D:\\Mon Nam 4\\ChuyenDeWeb\\Cửa hàng mẹ và bé\\Web\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hanh&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mon Nam 4/ChuyenDeWeb/Cửa hàng mẹ và bé/Web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Mon Nam 4\\ChuyenDeWeb\\Cửa hàng mẹ và bé\\Web\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\pages\pageDetailsProducts" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\pages" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\types" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\product" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\style" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,6 +190,8 @@
       <workItem from="1777385418170" duration="6780000" />
       <workItem from="1777392551008" duration="5382000" />
       <workItem from="1777475734359" duration="8403000" />
+      <workItem from="1777786236333" duration="5688000" />
+      <workItem from="1777808520264" duration="20460000" />
     </task>
     <task id="LOCAL-00001" summary="Update database">
       <option name="closed" value="true" />
@@ -137,5 +210,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update database" />
     <option name="LAST_COMMIT_MESSAGE" value="Update database" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/pages/pageDetailsProducts/detailProduct.tsx</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

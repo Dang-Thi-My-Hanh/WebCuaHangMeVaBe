@@ -6,7 +6,10 @@ import banner6 from "../../assets/banners/banner6.png";
 import banner5 from "../../assets/banners/banner5.png";
 import "./home.css";
 import { FaGift, FaFire, FaStar, FaTruck, FaMoneyBillWave } from "react-icons/fa";
+import {useNavigate} from "react-router-dom";
+
 const Home = () => {
+    const navigate = useNavigate();
     const products = [
         { id: 1, name: "Sữa cho bé cao cấp", price: 250000, image: sanpham },
         { id: 2, name: "Tã em bé siêu thấm", price: 180000, image: sanpham },
@@ -34,14 +37,15 @@ const Home = () => {
                         <button>Sản phẩm bán chạy</button>
                     </div>
 
-                    <div className="product-list">
+                    <div className="home-product-list">
                         {products.map((item) => (
-                            <ProductCard
-                                key={item.id}
-                                name={item.name}
-                                price={item.price}
-                                image={item.image}
-                            />
+                            <div key={item.id} onClick={() => navigate(`/detailproduct/${item.id}`)}>
+                                <ProductCard
+                                    name={item.name}
+                                    price={item.price}
+                                    image={item.image}
+                                />
+                            </div>
                         ))}
                     </div>
                 </div>
@@ -56,7 +60,7 @@ const Home = () => {
                             Ưu đãi hôm nay
                         </h4>
 
-                        <img src={banner6} alt="banner" className="promo-banner" />
+                        <img src={banner6} alt="banner" className="promo-banner"/>
 
                         <ul>
                             <li>
