@@ -1,4 +1,5 @@
 import "./productCard.css";
+import React from "react";
 
 type Product = {
     name: string;
@@ -8,15 +9,17 @@ type Product = {
 
 const ProductCard = ({ name, price, image }: Product) => {
     return (
-        <div className="product-card">
-            <img src={image} alt={name} className="product-img" />
+        <div className="pcard">
+            <img src={image} alt={name} className="pcard-img" />
 
-            <div className="product-info">
-                <p className="product-name">{name}</p>
-                <p className="product-price">{price.toLocaleString()} VND</p>
+            <div className="pcard-info">
+                <p className="pcard-name">{name}</p>
+                <p className="pcard-price">{price.toLocaleString()} VND</p>
             </div>
 
-            <div className="cart-icon">🛒</div>
+            <button className="pcard-add">
+                <i className="fa-solid fa-cart-plus"></i>
+            </button>
         </div>
     );
 };
