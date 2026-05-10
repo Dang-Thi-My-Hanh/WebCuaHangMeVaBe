@@ -1,6 +1,7 @@
 import React from "react";
 import "./address.css";
 import banner from "../../assets/icons/Sanpham.png";
+import AccoutMenu from "../../components/accoutMenu";
 
 const Address: React.FC = () => {
     return (
@@ -12,24 +13,7 @@ const Address: React.FC = () => {
             </p>
 
             <div className="address-container">
-
-                {/* LEFT SIDEBAR */}
-                <div className="left-sidebar">
-                    <div className="user-box">
-                        <div className="avatar"></div>
-                        <p>Tên tài khoản</p>
-                    </div>
-
-                    <ul className="menu">
-                        <li>Thẻ thành viên</li>
-                        <li>Con cưng xu</li>
-                        <li>Gói ưu đãi</li>
-                        <li>Đơn mua</li>
-                        <li className="active">Sổ địa chỉ</li>
-                        <li>Voucher của tôi</li>
-                        <li>Đánh giá của tôi</li>
-                    </ul>
-                </div>
+                <AccoutMenu/>
 
                 {/* CENTER FORM */}
                 <div className="address-form">

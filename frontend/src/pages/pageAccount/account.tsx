@@ -2,6 +2,7 @@ import React from "react";
 import "./account.css";
 import map from "../../assets/icons/icondiachi.png";
 
+import AccountMenu from "../../components/accoutMenu";
 const AccountPage: React.FC = () => {
     return (
         <div className="account-page">
@@ -13,30 +14,8 @@ const AccountPage: React.FC = () => {
             </p>
             <div className="account-container">
 
-                {/* LEFT SIDEBAR */}
-                <div className="left-sidebar">
-                    <div className="user-box">
-                        <div className="avatar"></div>
-                        <p>Tên tài khoản</p>
-                        <div className="address-link">
-                            <img src={map} alt="map" className="promo-map" />
-                            <button onClick={() => window.location.href = "/address"}>
-                                Địa chỉ nhận hàng
-                            </button>
-                        </div>
-                    </div>
 
-                    <ul className="menu">
-                        <li>Thẻ thành viên</li>
-                        <li>Con cưng xu</li>
-                        <li>Gói ưu đãi</li>
-                        <li>Đơn mua</li>
-                        <li>Sổ địa chỉ</li>
-                        <li>Voucher của tôi</li>
-                        <li className="active">Thông tin cá nhân</li>
-                    </ul>
-                </div>
-
+                <AccountMenu/>
                 {/* CENTER FORM */}
                 <div className="account-form">
                     <div className="account-form-wrapper ">

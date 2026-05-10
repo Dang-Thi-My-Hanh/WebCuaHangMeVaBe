@@ -42,6 +42,7 @@ import Account from "./pages/pageAccount/account";
 import Cart from "./pages/pageCart/cart";
 import Payment from "./pages/pagePayment/payment";
 import DetailProduct from "./pages/pageDetailsProducts/detailProduct";
+import History from "./pages/pageHistory/history";
 
 function App() {
     return (
@@ -56,6 +57,7 @@ function App() {
                     <Route path="/account" element={<Account />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/payment" element={<Payment />} />
+                    <Route path="/history" element={<History />} />
                     <Route path="/detailproduct/:id" element={<DetailProduct />} />
                 </Route>
 
