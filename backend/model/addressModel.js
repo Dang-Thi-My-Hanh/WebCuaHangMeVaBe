@@ -30,7 +30,15 @@ const createAddress = (data, callback) => {
         callback
     );
 };
+/* GET ALL ADDRESS */
+const getAddresses = (callback) => {
+
+    const sql = "SELECT * FROM addresses";
+
+    db.query(sql, callback);
+};
 
 module.exports = {
-    createAddress
+    createAddress,
+    getAddresses
 };
