@@ -1,5 +1,5 @@
-const Account = require("../model/accountModel");
-
+const Account = require("../../model/accountModel");
+const bcrypt = require("bcrypt");
 /* GET ALL */
 const getAccounts = (req, res) => {
 

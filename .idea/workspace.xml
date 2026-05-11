@@ -5,42 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59dcd129-e92b-4fab-8894-714e7b14aca6" name="Changes" comment="Update database">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/discountController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/orderDetailController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/otpCodeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/productImageController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/reviewController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/categoryModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/discountModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/orderDetailModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/orderModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/otpCodeModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/productImageModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/productModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/productSpecModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/model/reviewModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/discountRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/orderDetailRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/otpCodeRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/productImageRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/reviewRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/Account/checkPhone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/Account/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/Account/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/Account/sendOtp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/Account/verifyOtp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/accountController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/accountController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/addressController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/addressController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/accountController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/Account/accountController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/model/accountModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/model/accountModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/model/addressModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/model/addressModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/accountRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/accountRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/addressRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/addressRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,11 +94,11 @@
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components" />
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\style" />
+      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\backend\controllers\Account" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\pages\pageDetailsProducts" />
       <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\pages" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\types" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\product" />
-      <recent name="D:\Mon Nam 4\ChuyenDeWeb\Cửa hàng mẹ và bé\Web\frontend\src\components\style" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,7 +142,8 @@
       <workItem from="1777808520264" duration="21698000" />
       <workItem from="1778001629564" duration="323000" />
       <workItem from="1778085786240" duration="2757000" />
-      <workItem from="1778399731231" duration="5985000" />
+      <workItem from="1778399731231" duration="6297000" />
+      <workItem from="1778509117221" duration="10482000" />
     </task>
     <task id="LOCAL-00001" summary="Update database">
       <option name="closed" value="true" />

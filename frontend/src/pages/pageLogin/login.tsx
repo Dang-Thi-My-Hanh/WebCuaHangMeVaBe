@@ -1,17 +1,62 @@
 import React, { useState } from "react";
 import "./login.css";
-import PhoneForm from "../../components/PhoneForm";
-import InfoForm from "../../components/InfoForm";
+import PhoneForm from "../../components/phoneForm";
+import InfoForm from "../../components/infoForm";
+import OtpForm from "../../components/otpForm";
+import RegisterForm from "../../components/registerForm";
 
 const Login = () => {
-    const [step, setStep] = useState(1);
-
+    const [step, setStep] = useState("PHONE");
+    const [phone, setPhone] =
+        useState("");
     return (
         <div className="login-page">
             <div className="background">
                 <div className="form-wrapper">
-                    {step === 1 && <PhoneForm onNext={() => setStep(2)} />}
-                    {step === 2 && <InfoForm />}
+
+                    {
+                        step === "PHONE" && (
+
+                            <PhoneForm
+                                setPhone={setPhone}
+                                onLogin={() =>
+                                    setStep("LOGIN")
+                                }
+                                onOtp={() =>
+                                    setStep("OTP")
+                                }
+                            />
+                        )
+                    }
+
+                    {
+                        step === "OTP" && (
+                            <OtpForm
+                                phone={phone}
+                                onNext={() =>
+                                    setStep("REGISTER")
+                                }
+                            />
+                        )
+                    }
+
+                    {
+                        step === "REGISTER" && (
+
+                            <RegisterForm
+                                phone={phone}
+                            />
+                        )
+                    }
+
+                    {
+                        step === "LOGIN" && (
+                            <InfoForm
+                                phone={phone}
+                            />
+                        )
+                    }
+
                 </div>
             </div>
         </div>

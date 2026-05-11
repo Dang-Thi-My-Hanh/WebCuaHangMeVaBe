@@ -25,9 +25,10 @@ const createAccount = (data, callback) => {
             userName,
             email,
             password,
-            phone
+            phone,
+            isVerified
         )
-        VALUES (?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?)
     `;
 
     db.query(
@@ -36,14 +37,75 @@ const createAccount = (data, callback) => {
             data.userName,
             data.email,
             data.password,
-            data.phone
+            data.phone,
+            true
         ],
         callback
     );
 };
+const findByPhone = (phone, callback) => {
 
+    const sql = `
+        SELECT * FROM users
+        WHERE phone = ?
+    `;
+
+    db.query(sql, [phone], callback);
+};
+const saveOtp = (
+    phone,
+    otp,
+    expiredAt,
+    callback
+) => {
+
+    const sql = `
+        INSERT INTO otp_codes
+        (
+            phone,
+            otp,
+            expired_at
+        )
+        VALUES (?, ?, ?)
+    `;
+
+    db.query(
+        sql,
+        [
+            phone,
+            otp,
+            expiredAt
+        ],
+        callback
+    );
+};
+const verifyOtp = (
+    phone,
+    otp,
+    callback
+) => {
+
+    const sql = `
+        SELECT *
+        FROM otp_codes
+        WHERE phone = ?
+        AND otp = ?
+        AND expired_at > NOW()
+        ORDER BY created_at DESC
+        LIMIT 1
+    `;
+
+    db.query(
+        sql,
+        [phone, otp],
+        callback
+    );
+};
 module.exports = {
     getAccounts,
     getAccountById,
-    createAccount
+    createAccount,
+    findByPhone,
+    saveOtp,
+    verifyOtp
 };
